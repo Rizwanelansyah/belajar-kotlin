@@ -1,7 +1,10 @@
 package app.src
 import javax.swing.JOptionPane
+import com.formdev.flatlaf.FlatDarkLaf
+import rizwan.elansyah.kalkulator.*
 
 fun main() {
+  FlatDarkLaf.setup()
 
   val str1 = "--------------------------------------------\n"
   val str2 = "Latihan Kalkulator Dengan Dialog : Rizwan Elansyah\n"
@@ -19,25 +22,4 @@ fun main() {
 
   JOptionPane.showMessageDialog(null, "$title $output", "Hasil Kalkulator", JOptionPane.PLAIN_MESSAGE)
 
-}
-
-fun add(a: Int, b: Int): String {
-  val result = a + b
-  val strRes = "$a + $b = $result"
-  return strRes
-}
-fun sub(a: Int, b: Int): String {
-  val result = a - b
-  val strRes = "$a - $b = $result"
-  return strRes
-}
-fun mul(a: Int, b: Int): String {
-  val result = a * b
-  val strRes = "$a * $b = $result"
-  return strRes
-}
-fun div(a: Int, b: Int): String {
-  val result = a / b
-  val strRes = "$a / $b = $result"
-  return strRes
 }
