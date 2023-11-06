@@ -1,5 +1,5 @@
 package app.src.entities
 
-fun manyapa(nama: String) {
+fun sapa(nama: String) {
   println("Halo Anak-anak Perkenalkan Nama Saya $nama")
 }

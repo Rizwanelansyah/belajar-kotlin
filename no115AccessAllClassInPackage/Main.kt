@@ -12,5 +12,5 @@ fun main() {
   val nilaiAkhir = input.nextInt()
 
   val randomNumber = rand.nextInt(nilaiAkhir - nilaiAwal + 1) + nilaiAwal
-  println("Nilai Acak : $randomNumber") 
+  println("Nilai Acak : $randomNumber")
 }
